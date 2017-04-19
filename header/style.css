@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.nav{
+  background: #86969C;
+  color: #fff;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+
+}
+
+.main-nav,
+.secondary-nav{
+  display: flex;
+  list-style: none;
+}
+
+.main-nav li,
+.secondary-nav li{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
