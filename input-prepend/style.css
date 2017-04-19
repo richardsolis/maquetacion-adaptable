@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.input-wapper{
+  border:1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  
+}
+
+label{
+  background: #f4f3f1;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+input{
+  flex-grow: 1;
+}
